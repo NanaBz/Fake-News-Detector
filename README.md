@@ -1,12 +1,20 @@
-# React + Vite
+# Fake News Detector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Fake News Detector built using an AI model designed to identify whether a given news article is real or fake. It was developed as a collaborative effort among AI and software development students.
 
-Currently, two official plugins are available:
+## Project Link
+- [Fake News Detector on Vercel](https://fake-news-detector-ashen.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contributors
+- [Nanakwaku Boakye-Akyeampong (NanaBz)](https://github.com/NanaBz) - Implemented the backend, integrated the frontend with the backend, tested the API, and deployed the project on Vercel.
+- [Enapa Asamoah](https://github.com/Enapa-Asamoah) - Collaborated on the development of the AI model and provided valuable insights on dataset refinement.
+- [Benedict Havor-Abrahams](https://github.com/Benedict-nds) - Assisted in training the AI model and contributed to enhancing the model’s accuracy.
 
-## Expanding the ESLint configuration
+## Limitations
+- The dataset used for training the model is biased, with more Western and European news than African news. This can affect the accuracy and fairness of predictions for African news articles.
+- Limited dataset diversity results in less reliable predictions for underrepresented regions.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Future Improvements
+- Expanding the dataset to include more African news sources to improve model accuracy and fairness.
+- Improving the model architecture to enhance prediction accuracy and reduce bias.
+
